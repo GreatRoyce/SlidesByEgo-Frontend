@@ -18,7 +18,7 @@ h1{
     font-size: 30px;
     font-weight: 400;
 }
-@media (max-width:640px) {
+@media (max-width:479px) {
     h1{
         font-size: 1.5rem;
     }   
@@ -44,7 +44,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
 }
-@media (max-width:640px) {
+@media (max-width:479px) {
     .headline_box{
         justify-content: space-between;
     }    
@@ -63,12 +63,12 @@ body{
     color: #c59b03;
     display: none;
 }
-@media (max-width:640px) {
+@media (max-width:479px) {
     .s_b_e{
         margin-top: -7px;
         display: block;
         text-align: center;
-        margin-left: 10%;
+        margin-left: 25%;
     }
 }
 .fa-bars{
@@ -86,12 +86,13 @@ body{
     display: flex;
     justify-content: space-evenly;
 }
-@media  (max-width:640px) {
+@media  (max-width:479px) {
     .men_women_more,  .account, .sign{
         display: none;
     }    
     .hamburger{
         display: block;
+        margin-right: 15%;
     }
 }
 .men{
@@ -222,7 +223,7 @@ body{
     max-width: 100%;
     animation: heroes 35s infinite;
 }
-@media (max-width:640px) {
+@media (max-width:479px) {
     .section_one{
         height: 50vh;
         max-width: 100%;
@@ -246,7 +247,7 @@ body{
     margin-bottom: 4vh;
     display: flex;
 }
-@media (max-width:640px) {
+@media (max-width:479px) {
    .collection_display{
     flex-direction: column;
     max-width: 20%;
@@ -389,6 +390,19 @@ padding-top: 70px;
     width: 100vh;
     
 }
+@media (max-width:479px) {
+    .section_six{
+      width: 70%;
+      
+       
+    }
+    .input_send{
+        width: 100%;
+    }
+    .input{
+        width: 60%;
+    }
+}
 .fa-paper-plane{
     font-size: 20px;
 }
@@ -407,7 +421,7 @@ padding-top: 70px;
     opacity: .7;
     margin-bottom: 7vh;
 }
-@media (max-width:640px) {
+@media (max-width:479px) {
     .footer_section{
         flex-direction: column;
     }
@@ -483,7 +497,7 @@ a:hover{
     display: flex;
     width: 17%;
 }
-@media (max-width:640px){
+@media (max-width:479px){
     .affiliates{
         width: 35%;
         flex-direction: column;
